@@ -5,8 +5,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda Fashion</title>
+    <!-- tailwind css link  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind custom css  -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                pandablack: '#363958',
+                pandagreen: '#A4BC46',
+                pandayellow: '#FABE4C',
+                pandabg1: '#FFFBF0',
+                pandabg2: '#F1F1F1',
+                pandawhite: '#FFFFFF',
+              }
+            }
+          }
+        }
+      </script>
 </head>
 <body>
-    <h1>hello world</h1>
+    <header class="bg-pandabg1">
+        <div class="grid grid-cols-1 md:grid-cols-2 justify-center items-center p-10 gap-3 container mx-auto">
+            <div class="space-y-5">
+                <h1 class="text-5xl font-semibold"><span class="text-pandayellow">BE THE PANDA <br> </span>OF WINTER</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus quibusdam officiis totam animi fuga, culpa ea! Quo, natus eveniet commodi quasi deleniti, debitis nihil </p>
+                <button class="bg-pandagreen bg-gradient-to-t from-white to-pandagreen py-1 px-2 rounded text-pandawhite">
+                    BUY NOW
+                </button>
+            </div>
+            <div>
+                <img src="images/model.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- womans jacket section  -->
+      <section class="container mx-auto my-20">
+          <h1 class="uppercase text-2xl font-semibold">woman jacket</h1>
+          <!-- item card  -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="shadow rounded-lg p-4">
+              <div class="bg-pandabg2 rounded-lg p-4">
+                <img src="images/jacket-1.png" class="p-4" alt="woman jacket 1">
+              </div>
+              <div class="card-body p-4 space-y-3">
+                <h1 class="text-4xl font-semibold">Yellow Coat Jacket </h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, animi.</p>
+                <div class="uppercase flex justify-between px-4">
+                  <h1 class="text-4xl text-pandayellow font-semibold">$234</h1>
+                  <button class="bg-pandagreen bg-gradient-to-t from-white to-pandagreen py-1 px-2 rounded text-pandawhite">buy now</button>
+                </div>
+              </div>
+            </div>
+            <div class="shadow rounded-lg p-4">
+              <div class="bg-pandabg2 rounded-lg p-4">
+                <img src="images/jacket-2.png" class="p-4" alt="woman jacket 2">
+              </div>
+              <div class="card-body p-4 space-y-3">
+                <h1 class="text-4xl font-semibold">Yellow Coat Jacket </h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, animi.</p>
+                <div class="uppercase flex justify-between px-4">
+                  <h1 class="text-4xl text-pandayellow font-semibold">$234</h1>
+                  <button class="bg-pandagreen bg-gradient-to-t from-white to-pandagreen py-1 px-2 rounded text-pandawhite">buy now</button>
+                </div>
+              </div>
+            </div>
+            <div class="shadow rounded-lg p-4">
+              <div class="bg-pandabg2 rounded-lg p-4">
+                <img src="images/jacket-3.png" class="p-4" alt="woman jacket 3">
+              </div>
+              <div class="card-body p-4 space-y-3">
+                <h1 class="text-4xl font-semibold">Yellow Coat Jacket </h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, animi.</p>
+                <div class="uppercase flex justify-between px-4">
+                  <h1 class="text-4xl text-pandayellow font-semibold">$234</h1>
+                  <button class="bg-pandagreen bg-gradient-to-t from-white to-pandagreen py-1 px-2 rounded text-pandawhite">buy now</button>
+                </div>
+              </div>
+            </div>
+            
+            
+          </div>
+      </section>
+      <!-- mans jacket section  -->
+      <section class="container mx-auto my-20">
+        <h1 class="uppercase text-2xl font-semibold">mans jacket</h1>
+        <!-- item card  -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="shadow rounded-lg p-4">
+            <div class="bg-pandabg2 rounded-lg p-4">
+              <img src="images/jacket-4.png" class="p-4" alt="man jacket 1">
+            </div>
+            <div class="card-body p-4 space-y-3">
+              <h1 class="text-4xl font-semibold">Yellow Coat Jacket </h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, animi.</p>
+              <div class="uppercase flex justify-between px-4">
+                <h1 class="text-4xl text-pandayellow font-semibold">$234</h1>
+                <button class="bg-pandagreen bg-gradient-to-t from-white to-pandagreen py-1 px-2 rounded text-pandawhite">buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="shadow rounded-lg p-4">
+            <div class="bg-pandabg2 rounded-lg p-4">
+              <img src="images/jacket-5.png" class="p-4" alt="man jacket 2">
+            </div>
+            <div class="card-body p-4 space-y-3">
+              <h1 class="text-4xl font-semibold">Yellow Coat Jacket </h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, animi.</p>
+              <div class="uppercase flex justify-between px-4">
+                <h1 class="text-4xl text-pandayellow font-semibold">$234</h1>
+                <button class="bg-pandagreen bg-gradient-to-t from-white to-pandagreen py-1 px-2 rounded text-pandawhite">buy now</button>
+              </div>
+            </div>
+          </div>
+          <div class="shadow rounded-lg p-4">
+            <div class="bg-pandabg2 rounded-lg p-4">
+              <img src="images/jacket-6.png" class="p-4" alt="man jacket 3">
+            </div>
+            <div class="card-body p-4 space-y-3">
+              <h1 class="text-4xl font-semibold">Yellow Coat Jacket </h1>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, animi.</p>
+              <div class="uppercase flex justify-between px-4">
+                <h1 class="text-4xl text-pandayellow font-semibold">$234</h1>
+                <button class="bg-pandagreen bg-gradient-to-t from-white to-pandagreen py-1 px-2 rounded text-pandawhite">buy now</button>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+    </section>
+    </main>
 </body>
 </html>
